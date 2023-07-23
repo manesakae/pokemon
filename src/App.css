@@ -1,0 +1,46 @@
+.container{
+  padding: 10px;
+  margin: 40px;
+  background-color: lightgray;
+  text-align: center;
+}
+button {
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #fff;
+  background-color: green;
+  box-shadow: none;
+}
+.pagination{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.pokemon-list{
+  display: flex;
+  justify-self: start;
+}
+.pokemon{
+  border: 1px solid black;
+  flex-basis: calc(33.33% - 10px); /* Width of each element with spacing accounted for */
+  background-color: #f2f2f2;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+.pokemon-header{
+  background-color: green;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.image-container {
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  /* width: 400px; Set the width of the container (adjust as needed) */
+  height: 300px;
+}
+
